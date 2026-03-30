@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap");
+
+:root {
+  --cc-font-body: "Plus Jakarta Sans", "Segoe UI", sans-serif;
+  --cc-font-display: "Sora", "Plus Jakarta Sans", "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #dbe3f0;
+  font-family: var(--cc-font-body);
+  color: #142447;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.cc-display {
+  font-family: var(--cc-font-display);
+}
+
+.cc-body {
+  font-family: var(--cc-font-body);
+}
